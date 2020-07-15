@@ -21,14 +21,16 @@ export class EmailForm extends Component {
     return (
       <>
       Get notified when we launch!
-      <form id="signup-form" name="how-to-say-name" data-netlify="true" onSubmit={this.onSubmit} method="post"  >
+
+      <form id="signup-form" data-netlify-honeypot="bot-field" name="how-to-say-name" data-netlify="true" onSubmit={this.onSubmit} method="post"  >
         <input
           type="email"
           name="email"
           id="email"
           placeholder="Email Address"
         />
-        <button type="submit">Sign Up</button>
+        <input type="hidden" name="form-name" value="how-to-say-name" />
+        <input type="submit" value="Sign Up" />
         <span className={`${message ? 'visible success' : ''} message`}>
           {message}
         </span>
