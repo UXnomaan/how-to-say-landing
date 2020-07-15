@@ -1,15 +1,7 @@
 {
-  "name": "gatsby-starter-eventually",
+  "name": "how-to-say-landing",
   "version": "1.0.0",
-  "description": "Gatsby.js V2 starter template based on Eventually by HTML5 UP",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-eventually.git"
-  },
-  "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
-  },
+  "description": "",
   "dependencies": {
     "gatsby": "^2.20.2",
     "gatsby-plugin-manifest": "^2.3.1",
@@ -40,9 +32,6 @@
     "gatsby-starter",
     "gatsby-starter-eventually"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-eventually/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-eventually#readme"
+  "license": "MIT"
+
 }
