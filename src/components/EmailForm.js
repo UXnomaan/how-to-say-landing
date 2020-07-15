@@ -22,7 +22,7 @@ export class EmailForm extends Component {
       <>
       Get notified when we launch!
 
-      <form data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" name="how-to-say-name" data-netlify="true" onSubmit={this.onSubmit} method="post"  >
+      <form data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" name="how-to-say-name" data-netlify="true"  method="post"  >
         <input type="hidden" name="form-name" value="how-to-say-name" />
         <input
           type="email"
