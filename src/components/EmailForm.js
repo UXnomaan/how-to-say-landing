@@ -21,7 +21,7 @@ export class EmailForm extends Component {
     return (
       <>
       Get notified when we launch!
-      <form id="signup-form" netlify onSubmit={this.onSubmit} method="post" action="#">
+      <form id="signup-form" name="how-to-say-name" data-netlify="true" onSubmit={this.onSubmit} method="post" action="#">
         <input
           type="email"
           name="email"
